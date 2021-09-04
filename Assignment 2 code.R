@@ -1,6 +1,6 @@
 # Source of data and code: Dimitris Bertsimas @ MIT
 
-MusicRecord<-read.csv(file.choose()) #load data
+MusicRecord<-read.csv("Documents/Study/MMA 2022S/867 - Predictive Modelling/Music-records-project/MusicData.csv") #load data
 
 # How many songs does the dataset include for which the artist name is "Michael Jackson"?
 table(MusicRecord$artistname == "Michael Jackson")
